@@ -10,5 +10,13 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "arch-seed": {
+      "tags": []
+    },
+    "arch/seed-e2e": {
+      "tags": [],
+      "implicitDependencies": ["arch-seed"]
+    }
+  }
 }
